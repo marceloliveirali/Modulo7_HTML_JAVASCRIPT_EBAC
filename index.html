@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML com JavaScript</title>
+
+    <link rel="stylesheet" href="./style.css" />
+
+</head>
+<body>
+    <div class="container">
+        <h1>EBAC Numbers</h1>
+        <h2>Números Válidos</h2>
+        <form id="form-number">
+            <label for="number-a">
+                Número A
+                <input type="number" id="number-a" required placeholder="Digite um número" />
+            </label>
+            <label for="number-b">
+                Número B
+                <input type="number" id="number-b" required placeholder="Digite um número" />
+            </label>
+            <p class="error-message">
+                Por favor, o valor do número B deve sempre menor que o valor do número A.
+            </p> 
+            <button type="submit" id="btn-submit">Submeter</button>
+            <P class="sucess-message">
+                Valeu! Tudo correto. O valor do número A é maior que o valor do número B
+            </P>   
+        </form>
+    </div>
+    <script src="./script.js">
+
+    </script>
+</body>
+</html>
